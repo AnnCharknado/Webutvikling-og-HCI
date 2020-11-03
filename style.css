@@ -1,0 +1,442 @@
+html,
+
+
+body,
+
+
+header,
+
+style,
+
+footer,
+
+span,
+
+#intro {
+    
+
+    height:95%;
+    
+       
+
+
+
+}
+
+
+ 
+
+#intro {
+
+
+    background: url("/images/bolge.jpg")no-repeat center center fixed;
+
+
+    -webkit-background-size: cover;
+
+
+    -moz-background-size:cover;
+
+
+    -o-background-size: cover;
+
+
+    background-size: cover;
+
+text-align: center;
+
+
+}
+
+
+  
+
+
+h1 {
+    color: rgba(209, 144, 190, 0.103);
+    text-align: center
+    
+    
+
+
+   
+
+    
+}
+
+h2 {
+    text-align: center;
+    
+    
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(78, 74, 74);
+    
+    
+    margin: 50px;
+    
+
+    
+}
+
+ h3 {
+     background-color: rgba(251, 251, 255, 0);
+     color: rgb(90, 110, 110);
+     
+ }
+ 
+ 
+ h4{
+     color: rgb(44, 41, 41);
+    
+    
+
+ }
+
+
+ h5{
+     color: rgb(17, 16, 16);
+ }
+ 
+  
+ 
+  body {
+    font-family: Arial, sans-serif
+    
+    
+    
+
+  }
+
+ *{
+     padding: 0.2px;
+ }
+      
+
+
+  .body {
+    line-height: 200px;
+    height: 200px;
+    border: 3px solid rgb(118, 191, 219);
+    text-align: center;
+    
+  }
+  
+   p {
+    line-height: 1.5;
+    
+
+    text-align: center;
+    
+  }  
+
+
+  
+  
+  nav {
+    height: 10vh;
+    background: #4f43918e;
+    
+    
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+    width: 50%;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: auto;
+  }
+  
+  .nav-links li a {
+    color: rgb(244, 245, 240);
+    text-decoration: none;
+    font-size: 12px;
+  }
+  
+  .landing {
+    height: 0vh;
+    width: 60vh;
+display: center;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+   .landing h1 {
+         text-align: center;
+         text-shadow: #4c5ca3b9;
+   } 
+    
+    
+  
+
+  .landing h2 {
+
+    margin: 155px;
+    font-family: Arial;
+
+
+
+
+  }
+  
+  @media screen and (max-width: 768px) {
+    .line {
+      width: 20px;
+      height: 3px;
+      background: rgb(236, 230, 233);
+      margin: 5px;
+    }
+    nav {
+      position: relative;
+    }
+  
+    .hamburger {
+      position: absolute;
+      cursor: pointer;
+      right: 5%;
+      top: 50%;
+      transform: translate(-5%, -50%);
+      z-index: 2;
+    }
+  
+    .nav-links {
+    
+        
+      position: relative;
+      background: #4c5ca3b9;
+      height: 100vh;
+      width: 100%;
+      flex-direction: column;
+      clip-path: circle(100px at 100% -20%);
+      -webkit-clip-path: circle(100px at 90% -10%);
+      transition: all 2s ease-out;
+      pointer-events: none;
+    }
+    .nav-links.open {
+      clip-path: circle(1000px at 90% -10%);
+      -webkit-clip-path: circle(1000px at 90% -10%);
+      pointer-events: all;
+    }
+    .landing {
+      flex-direction:column;
+    }
+    .nav-links li {
+      opacity: 0;
+    }
+    .nav-links li a {
+      font-size: 15px;
+    }
+    .nav-links li:nth-child(1) {
+      transition: all 0.5s ease 0.2s;
+    }
+    .nav-links li:nth-child(2) {
+      transition: all 0.5s ease 0.4s;
+    }
+    .nav-links li:nth-child(3) {
+      transition: all 0.5s ease 0.6s;
+    }
+    .nav-links li:nth-child(4) {
+        transition: all 0.5s ease 0.8s;
+      }
+      .nav-links li:nth-child(5) {
+        transition: all 0.5s ease 1.0s;
+      }
+      .nav-links li:nth-child(6) {
+        transition: all 0.5s ease 1.2s;
+      }
+      .nav-links li:nth-child(7) {
+        transition: all 0.5s ease 1.4s;
+      }
+      .nav-links li:nth-child(8) {
+        transition: all 0.5s ease 1.6s;
+      }
+    li.fade {
+      opacity: 2;
+    }
+  }    
+      
+  * {
+    box-sizing: border-box;
+}
+
+  
+  
+.footer  {
+    text-align: center;
+}
+ 
+  
+  .center  {
+    line-height: 1.5;
+    
+    vertical-align: middle;
+  }  
+
+       
+  .mt-6 {
+    margin-top: 100px!important;
+}
+
+
+
+.footer {
+    background-color: rgba(224, 188, 211, 0.562);
+    text-align: center;
+    padding: 10px;
+  }
+
+ 
+  
+    
+  
+  
+  
+  div.gallery img {
+    
+    height: auto;
+    margin-left: 100px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
+
+    
+  
+  
+  div.gallery1 img {
+
+    height: auto;
+    margin-left: 100px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+   
+    
+   
+    
+  }
+  
+  div.gallery2 img {
+    height: auto;
+    margin-left: 100px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    
+    
+  }
+
+  div.gallery3 img {
+    height: auto;
+    margin-left: 100px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    
+  }
+  
+
+  div.gallery4 img {
+    height: auto;
+    margin-left: 100px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    
+    
+  }
+  
+
+  div.gallery5 img {
+    height: auto;
+    margin-left: 100px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    
+    
+  }
+  div.gallery6 img {
+    height: auto;
+    margin-left: 100px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+   
+  }
+  div.gallery7 img {
+    height: auto;
+    margin-left: 100px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+  }
+  div.gallery8 img {
+    height: auto;
+    margin-left: 100px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+  }
+  
+  
+
+  .footer {
+    display:block ;
+    position:static;
+    left: 0;
+    bottom: 10%;
+    width: 100%;
+
+    padding-bottom: 20px;
+    padding-top: 0px;
+    
+    background-image: url("/images/bakgrunncover.png");
+    background-size: cover;
+    text-align: left;
+    font-family: Helvetica, sans-serif
+    
+    
+   
+    
+  }
+
+  .footer  {
+    text-align: center;
+}
+ 
+  
+  .center  {
+    padding: 10px;
+    text-align: center;
+    
+  }  
+
+       
+  .mt-6 {
+    margin-top: 100px!important;
+}
+
+
+
+ 
+  
+
+  div.text-right {
+         text-align: center;
+    
+  }
+
+ 
